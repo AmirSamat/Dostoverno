@@ -1,0 +1,239 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://mobimg.b-cdn.net/v3/fetch/4e/4ea1e9e2ba40c3455f1fc0976fa6f703.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    width: 80%;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.category {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.category h3 {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.category a {
+    color: #fffb00;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .categories {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* --------- Главная страница (категории) --------- */
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.category {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.category h3 {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.category a {
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+/* --------- Стили для раздела Память --------- */
+.pamjat-section {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.pamjat-section h2 {
+    color: #ffeb3b;
+}
+
+/* --------- Стили для раздела Здоровье --------- */
+.zdorovje-section {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.zdorovje-section h2 {
+    color: #4caf50;
+}
+
+/* --------- Стили для раздела Зрение --------- */
+.zrjenie-section {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.zrjenie-section h2 {
+    color: #00bcd4;
+}
+
+/* --------- Стили для раздела Стоицизм --------- */
+.stoicism-section {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.stoicism-section h2 {
+    color: #9c27b0;
+}
+
+/* --------- Стили для раздела Минимализм --------- */
+.minimalism-section {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.minimalism-section h2 {
+    color: #607d8b;
+}
+
+/* --------- Стили для раздела Философия --------- */
+.filosofiya-section {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.filosofiya-section h2 {
+    color: #ff5722;
+}
+
+/* --------- Стили для раздела Тайм-менеджмент --------- */
+.time-management-section {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.time-management-section h2 {
+    color: #3f51b5;
+}
+
+/* --------- Стили для раздела Актив --------- */
+.aktiv-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.aktiv-section h2 {
+    color: #ffeb3b;
+}
+
+/* --------- Стили для раздела Книги --------- */
+.knigi-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.knigi-section h2 {
+    color: #ff9800;
+}
+
+/* --------- Стили для раздела Речь --------- */
+.rech-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.rech-section h2 {
+    color: #9c27b0;
+}
+
+/* --------- Стили для раздела Правда --------- */
+.pravda-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.pravda-section h2 {
+    color: #4caf50;
+
+    .category {
+        width: 90%;
+    }
+}
